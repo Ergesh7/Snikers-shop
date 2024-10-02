@@ -34,10 +34,10 @@ import "swiper/css/scrollbar";
   </div>
 
   <div class="mt-[30px] flex flex-wrap gap-[25px]">
-    <div class="flex">
+    <div class="">
       <img src="../assets/nike-1.png" alt="" />
       <p>Мужские Кроссовки Nike Blazer Mid Suede</p>
-      <div class="flex">
+      <div class="flex items-center	">
         <div>
           <p>Цена:</p>
           <p>12 999</p>
