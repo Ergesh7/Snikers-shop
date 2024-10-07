@@ -7,8 +7,19 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 </script>
 
+
+
+
 <template>
-  <Swiper
+
+<div>
+<p></p>
+</div>
+
+
+  
+
+<Swiper
     :modules="[Navigation, Pagination]"
     :slides-per-view="1"
     :space-between="50"
@@ -24,6 +35,9 @@ import "swiper/css/scrollbar";
       <img src="../assets/frog.png" alt="" />
     </SwiperSlide>
   </Swiper>
+
+
+
 
   <div class="flex justify-between mx-[60px] items-center mt-[40px]">
     <p>Все кроссовки</p>
